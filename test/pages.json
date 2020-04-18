@@ -1,0 +1,30 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "第一个页面",
+				"h5":{
+					"pullToRefresh": {
+						"color": "red"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007aff",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle":"dark",
+		"backgroundColor": "#ddd"
+	}
+}
