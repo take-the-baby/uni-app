@@ -1,31 +1,60 @@
 {
-  "description": "项目配置文件。",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": false
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.9.2",
-  "appid": "touristappid",
-  "projectname": "test",
-  "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "current": -1,
-      "list": []
-    }
-  }
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "touristappid",
+	"projectname": "test",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "详情页",
+					"query": "id=1",
+					"id": 0,
+					"pathName": "pages/detail/detail"
+				},
+				{
+					"name": "样式练习",
+					"id": 1,
+					"pathName": "pages/uniStyle/unistyle"
+				},
+				{
+					"name": "vue操作练习",
+					"id": 2,
+					"pathName": "pages/home/home"
+				},
+				{
+					"name": "接口请求测试",
+					"id": 3,
+					"pathName": "pages/httpTest/httpTest"
+				},
+				{
+					"name": "图片的上传和预览",
+					"id": 4,
+					"pathName": "pages/testImg/testImg"
+				}
+			]
+		}
+	}
 }

@@ -1,0 +1,11 @@
+view {
+	color: blue;
+}
+.box {
+	width: 325rpx;
+	height: 325rpx;
+	background-color: #DD524D;
+	font-size: 30rpx;
+	color: #000;
+}
+

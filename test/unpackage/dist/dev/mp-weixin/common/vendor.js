@@ -7614,9 +7614,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!*******************************!*\
-  !*** D:/root/test/pages.json ***!
-  \*******************************/
+/*!*************************************!*\
+  !*** E:/xm/uni-app/test/pages.json ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8520,20 +8520,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 /* 7 */
-/*!************************************************!*\
-  !*** D:/root/test/pages.json?{"type":"style"} ***!
-  \************************************************/
+/*!******************************************************!*\
+  !*** E:/xm/uni-app/test/pages.json?{"type":"style"} ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "测试", "usingComponents": {}, "usingAutoImportComponents": {} }, "pages/test/test": { "navigationBarTitleText": "第一个页面", "usingComponents": {}, "usingAutoImportComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#007aff", "enablePullDownRefresh": true, "backgroundTextStyle": "dark", "backgroundColor": "#ddd" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "首页", "enablePullDownRefresh": true }, "pages/test/test": { "navigationBarTitleText": "第一个页面" }, "pages/detail/detail": { "navigationBarTitleText": "详情页" }, "pages/uniStyle/unistyle": { "navigationBarTitleText": "样式练习" }, "pages/httpTest/httpTest": { "navigationBarTitleText": "接口请求测试" }, "pages/testImg/testImg": { "navigationBarTitleText": "图片的上传预览" }, "pages/home/home": { "navigationBarTitleText": "vue操作练习", "enablePullDownRefresh": true } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#007aff", "backgroundTextStyle": "dark", "backgroundColor": "#ddd" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!***********************************************!*\
-  !*** D:/root/test/pages.json?{"type":"stat"} ***!
-  \***********************************************/
+/*!*****************************************************!*\
+  !*** E:/xm/uni-app/test/pages.json?{"type":"stat"} ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

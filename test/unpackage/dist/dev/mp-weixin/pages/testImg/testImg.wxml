@@ -1,0 +1,1 @@
+<view class="test-img"><button type="primary" data-event-opts="{{[['tap',[['clickHandle',['$event']]]]]}}" bindtap="__e">上传图片</button><block wx:for="{{imgArr}}" wx:for-item="item" wx:for-index="i" wx:key="i"><image src="{{item}}" mode="aspectFit" data-event-opts="{{[['tap',[['imgClick',['$0'],[[['imgArr','',i]]]]]]]}}" bindtap="__e"></image></block></view>

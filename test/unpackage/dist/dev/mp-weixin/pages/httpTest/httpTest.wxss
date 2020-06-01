@@ -1,0 +1,12 @@
+
+.item {
+	height: 300px;
+	line-height: 300px;
+}
+
+
+.text-test {
+	color: #DD524D
+}
+
+

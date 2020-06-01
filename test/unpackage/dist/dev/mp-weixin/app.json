@@ -1,16 +1,36 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/test/test",
-    "pages/index/index"
+    "pages/detail/detail",
+    "pages/uniStyle/unistyle",
+    "pages/httpTest/httpTest",
+    "pages/testImg/testImg",
+    "pages/home/home"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#007aff",
-    "enablePullDownRefresh": true,
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ddd"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#007aff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "测试页",
+        "pagePath": "pages/test/test"
+      }
+    ]
   },
   "usingComponents": {}
 }

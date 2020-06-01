@@ -14,8 +14,20 @@
 				title: 'Hello'
 			}
 		},
-		onLoad() {
-
+		onLoad(options) {
+			console.log('页面加载完成',options)
+		},
+		onShow() {
+			console.log('页面显示了')
+		},
+		onHide() {
+			console.log('页面隐藏了')
+		},
+		onReady() {
+			console.log('页面加载完毕')
+		},
+		onPullDownRefresh() {
+			console.log('页面刷新了')
 		},
 		methods: {
 
